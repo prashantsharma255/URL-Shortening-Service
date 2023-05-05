@@ -20,21 +20,21 @@ The application works by taking a long URL input from a user, generating a uniqu
 
 - Install virtualenv (pip install virtualenv).
 
-- In the terminal, go to the source folder and run, 
+- In the terminal, go to the source folder and run,  
             virutalenv .
             
-- Then, run,
+- Then, run,  
             source bin/activate
             
-- Lastly, to start the Django project, 
+- Lastly, to start the Django project,   
             django-admin startproject [Name of the project]
             
-- To migrate the changes, run,
+- To migrate the changes, run,  
             manage.py makemigrations
             manage.py migrate
             
-- To create superuser,
+- To create superuser,  
             python manage.py createsuperuser
             
-- To start the server, that is a emulating a production & development environment.
+- To start the server, that is a emulating a production & development environment.  
             python manage.py runserver
